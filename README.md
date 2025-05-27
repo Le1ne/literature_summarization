@@ -4,17 +4,17 @@
 
 ## Требования
 
-* Библиотеки Python:
-  - `asyncio`
-  - `openai`
-  - `scipy`
-  - `nltk`
-  - `transformers`
-  - `tqdm`
-  - `evaluate`
-  - `sentence_transformers`
-  - `ignite`
-  - `numpy`
+Библиотеки Python:
+- `asyncio`
+- `openai`
+- `scipy`
+- `nltk`
+- `transformers`
+- `tqdm`
+- `evaluate`
+- `sentence_transformers`
+- `ignite`
+- `numpy`
 
 ## Сбор датасета
 
