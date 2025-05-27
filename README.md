@@ -58,8 +58,9 @@ $$
 - Сходство рассчитывается с помощью SentenceTransformer (`USER-bge-m3`).
 
 $$
-\text{AnswerSimilarity} = \frac{1}{N} \sum_{i=1}^{N} \text{sim}(a_i^\text{pred}, a_i^\text{ref}),
+\text{AnswerSimilarity} = \frac{1}{N} \sum_{i=1}^{N} \text{sim}(a_i^\text{pred},\ a_i^\text{ref}),
 $$
+
 где $\text{sim}$ — косинусное сходство между эмбеддингами ответов.
 
 Все метрики реализованы в файле `metrics.py`.
